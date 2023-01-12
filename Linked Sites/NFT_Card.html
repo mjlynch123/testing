@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor Challenge| NFT preview card component</title>
+
+  <style>
+    body {
+      background-color: hsl(217, 54%, 11%);
+      font-family: 'Outfit', sans-serif;
+      height: 100vh;
+    }
+    .attribution { 
+      height: 30px;
+      width: 100vw;
+      font-size: 11px; 
+      text-align: center; 
+      position: fixed;
+      bottom: 0;
+      color: white;
+    }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+
+    .main-card {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 15px;
+      width: 275px;
+      padding: 20px;
+    }
+
+    .main-card img {
+      height: 250px;
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .heading {
+      color: white;
+    }
+
+    .labels {
+      display: flex;
+      font-size: 13px;
+    }
+
+    .price {
+      display: flex;
+      align-items: center;
+      margin-inline-end: 5px;
+      color: rgb(57, 214, 201);
+      font-weight: 600;
+    }
+
+    .time {
+      display: flex;
+      align-items: center;
+      margin-inline-end: 5px;
+      position: relative;
+      right: -120px;
+      color: hsl(215, 51%, 70%);
+    }
+
+    svg {
+      margin-inline-end: 1px;
+    }
+
+    .creator {
+      display: flex;
+      align-items: center;
+    }
+
+    .creator img {
+      height: 30px;
+      width: 30px;
+      margin-inline-end: .5rem;
+      border: 1px solid white;
+    }
+
+    .creator p {
+      color: hsl(215, 51%, 70%);
+      font-size: 13px;
+    }
+
+    span {
+      color: white;
+    }
+    
+    @media screen and (max-width: 375px) {
+      .attribution {
+        position: absolute;
+        left: 50%;
+        bottom: -200px;
+        transform: translate(-50%, -50%);
+      }
+
+      .main-card {
+        left: 50%;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <section class="main-card">
+
+    <img src="https://github.com/mjlynch123/FrontEndMentor/blob/main/NFT_Preview/images/image-equilibrium.jpg?raw=true">
+
+    <h1 class="heading">Equilibrium #3429</h1>
+
+    <p style="color: hsl(215, 51%, 70%);">Our Equilibrium collection promotes balance and calm.</p>
+
+    <div class="labels">
+      <div class="price">
+        <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg><p class="price">
+        </p>0.041 ETH</p>
+      </div>
+      <div class="time">
+        <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+        <p>3 days left</p>
+      </div>
+    </div>
+    <hr style=" height: 1px; background-color: hsl(215, 32%, 27%); border: none;">
+    <div class="creator">
+      <img src="https://github.com/mjlynch123/mjlynch.github.io/blob/main/Images/image-avatar.png?raw=true" alt="">
+      <p>Creation of <span>Jules Wyvern</span></p>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://mjlynch123.github.io/mjlynch.github.io/#">Martin Lynch</a>.
+  </div>
+</body>
+</html>
