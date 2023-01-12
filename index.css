@@ -6,8 +6,7 @@ body {
     text-align: center;
     font-family: "Montserrat", sans-serif;
   }
-
-  
+ 
   .main {
     font-size: 35px;
     color: rgb(6, 189, 181);
@@ -215,7 +214,6 @@ body {
 
   .contact {
     width: 100vw;
-    height:  700px;
     background-color: rgb(10, 25, 47);
   }
 
@@ -256,10 +254,6 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     max-width: 25%;
-  }
-
-  .contact-form {
-    border: 1px solid white;
   }
 
   #names, #email, #message {
