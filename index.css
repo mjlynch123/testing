@@ -25,6 +25,7 @@ body {
   .main h1 {
     font-size: clamp(3rem, 25vmin, 10rem);
     color: #D3D3D3;
+    text-align: center;
   }
 
   .main h3 {
