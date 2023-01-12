@@ -256,10 +256,6 @@ body {
     max-width: 25%;
   }
 
-  #names, #email, #subject {
-    height: 35px;
-  }
-
   #names, #email, #message, #subject {
     border-radius: 5px;
     border: none;
