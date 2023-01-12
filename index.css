@@ -262,7 +262,7 @@ body {
     border: 1px solid white;
   }
 
-  #name, #email, #message {
+  #names, #email, #message {
     border-radius: 5px;
     border: none;
     width: 350px;
