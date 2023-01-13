@@ -264,6 +264,14 @@ body {
     padding: 12px;
   }
 
+  #subject {
+      border-radius: 5px;
+      border: none;
+      width: 550px;
+      margin-top: 10px;
+      padding: 12px;
+  }
+
   #submit {
     border-radius: 5px;
     width: 100px;
